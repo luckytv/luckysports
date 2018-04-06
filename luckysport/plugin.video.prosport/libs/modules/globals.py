@@ -42,7 +42,7 @@ PSDATAPATH          = os.path.join(ADDONDATAPATH, ADDON_ID)
 
 #######################################################################
 # Filename Variables 
-BASEURL             = base64.b64decode(b'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL211YWRkaWJ0dHYvbmVvc3BvcnQvbWFzdGVyLw==')
+BASEURL             = base64.b64decode(b'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2x1Y2t5dHYvbHVja3lzcG9ydHMvbWFzdGVyLw==')
 NEWSFILE            = BASEURL + base64.b64decode(b'bmV3cy54bWw=')
 LOCALNEWS           = os.path.join(PSADDONPATH, base64.b64decode(b'd2hhdHNuZXcudHh0'))
 #######################################################################
